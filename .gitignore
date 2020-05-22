@@ -1,0 +1,9 @@
+# dependencies
+node_modules
+
+# misc
+.vscode
+.env
+
+yarn.lock
+yarn-error.log
