@@ -4,6 +4,8 @@ node_modules
 # misc
 .vscode
 .env
+temp/*
+!temp/.gitkeep
 
 yarn.lock
 yarn-error.log
