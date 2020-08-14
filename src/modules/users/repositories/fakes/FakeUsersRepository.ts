@@ -25,8 +25,6 @@ class UsersRepository implements IUsersRepository {
 
     Object.assign(user, { id: uuid(), ...userData });
 
-    delete user.password;
-
     this.users.push(user);
 
     return user;
