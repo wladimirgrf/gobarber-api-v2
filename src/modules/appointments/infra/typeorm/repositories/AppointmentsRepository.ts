@@ -1,10 +1,11 @@
 import { getRepository, Repository, Between } from 'typeorm';
-import { startOfMonth, endOfMonth } from 'date-fns';
+import { startOfMonth, endOfMonth, startOfDay, endOfDay } from 'date-fns';
 
 import IAppointmentsRepository from '@modules/appointments/repositories/IAppointmentsRepository';
 
 import ICreateAppointmentDTO from '@modules/appointments/dtos/ICreateAppointmentDTO';
 import IFindAllInMonthFromProviderDTO from '@modules/appointments/dtos/IFindAllInMonthFromProviderDTO';
+import IFindAllInDayFromProviderDTO from '@modules/appointments/dtos/IFindAllInDayFromProviderDTO';
 
 import Appointment from '../entities/Appointment';
 
@@ -13,6 +14,17 @@ class AppointmentsRepository implements IAppointmentsRepository {
 
   constructor() {
     this.ormRepository = getRepository(Appointment);
+  }
+
+  public async create({
+    providerId,
+    date,
+  }: ICreateAppointmentDTO): Promise<Appointment> {
+    const appointment = this.ormRepository.create({ providerId, date });
+
+    await this.ormRepository.save(appointment);
+
+    return appointment;
   }
 
   public async findByDate(date: Date): Promise<Appointment | undefined> {
@@ -42,15 +54,24 @@ class AppointmentsRepository implements IAppointmentsRepository {
     return appointments;
   }
 
-  public async create({
+  public async findAllInDayFromProvider({
     providerId,
-    date,
-  }: ICreateAppointmentDTO): Promise<Appointment> {
-    const appointment = this.ormRepository.create({ providerId, date });
+    day,
+    month,
+    year,
+  }: IFindAllInDayFromProviderDTO): Promise<Appointment[]> {
+    const chosenDate = new Date(year, month - 1, day);
+    const firstHourOfTheDay = startOfDay(chosenDate);
+    const lastHourOfTheDay = endOfDay(chosenDate);
 
-    await this.ormRepository.save(appointment);
+    const appointments = await this.ormRepository.find({
+      where: {
+        providerId,
+        date: Between(firstHourOfTheDay, lastHourOfTheDay),
+      },
+    });
 
-    return appointment;
+    return appointments;
   }
 }
 
