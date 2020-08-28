@@ -15,18 +15,69 @@ describe('ListProviderMonthAvailability', () => {
 
   it('should be able to list the month availability from provider', async () => {
     await fakeAppointmentRepository.create({
+      date: new Date(2020, 7, 21, 8, 0, 0),
+      userId: 'user',
       providerId: 'provider',
-      date: new Date(2020, 7, 20, 9, 0, 0),
     });
 
     await fakeAppointmentRepository.create({
+      date: new Date(2020, 7, 21, 9, 0, 0),
+      userId: 'user',
       providerId: 'provider',
-      date: new Date(2020, 7, 20, 10, 0, 0),
     });
 
     await fakeAppointmentRepository.create({
-      providerId: 'provider',
       date: new Date(2020, 7, 21, 10, 0, 0),
+      userId: 'user',
+      providerId: 'provider',
+    });
+
+    await fakeAppointmentRepository.create({
+      date: new Date(2020, 7, 21, 11, 0, 0),
+      userId: 'user',
+      providerId: 'provider',
+    });
+
+    await fakeAppointmentRepository.create({
+      date: new Date(2020, 7, 21, 12, 0, 0),
+      userId: 'user',
+      providerId: 'provider',
+    });
+
+    await fakeAppointmentRepository.create({
+      date: new Date(2020, 7, 21, 13, 0, 0),
+      userId: 'user',
+      providerId: 'provider',
+    });
+
+    await fakeAppointmentRepository.create({
+      date: new Date(2020, 7, 21, 14, 0, 0),
+      userId: 'user',
+      providerId: 'provider',
+    });
+
+    await fakeAppointmentRepository.create({
+      date: new Date(2020, 7, 21, 15, 0, 0),
+      userId: 'user',
+      providerId: 'provider',
+    });
+
+    await fakeAppointmentRepository.create({
+      date: new Date(2020, 7, 21, 16, 0, 0),
+      userId: 'user',
+      providerId: 'provider',
+    });
+
+    await fakeAppointmentRepository.create({
+      date: new Date(2020, 7, 21, 17, 0, 0),
+      userId: 'user',
+      providerId: 'provider',
+    });
+
+    await fakeAppointmentRepository.create({
+      date: new Date(2020, 7, 21, 18, 0, 0),
+      userId: 'user',
+      providerId: 'provider',
     });
 
     const availability = await listProviderMonthAvailability.execute({
@@ -37,9 +88,8 @@ describe('ListProviderMonthAvailability', () => {
 
     expect(availability).toEqual(
       expect.arrayContaining([
-        { day: 19, available: true },
-        { day: 20, available: false },
-        { day: 21, available: true },
+        { day: 20, available: true },
+        { day: 21, available: false },
         { day: 22, available: true },
       ]),
     );
