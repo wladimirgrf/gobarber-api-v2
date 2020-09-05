@@ -3,10 +3,13 @@ node_modules
 
 # misc
 .vscode
-.env
+coverage
 temp/*
 !temp/.gitkeep
-coverage
 
 yarn.lock
 yarn-error.log
+
+#env
+.env
+ormconfig.json

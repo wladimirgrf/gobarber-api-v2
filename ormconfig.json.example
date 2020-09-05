@@ -2,11 +2,11 @@
   {
     "name": "default",
     "type": "postgres",
-    "host": "localhost",
+    "host": "",
     "port": 5432,
-    "username": "postgres",
-    "password": "docker",
-    "database": "gobarberT",
+    "username": "",
+    "password": "",
+    "database": "",
     "entities": [
       "./src/modules/**/infra/typeorm/entities/*.ts"
     ],
@@ -20,9 +20,9 @@
   {
     "name": "mongo",
     "type": "mongodb",
-    "host": "localhost",
+    "host": "",
     "port": 27017,
-    "database": "gobarberTNR",
+    "database": "",
     "useUnifiedTopology": true,
     "entities": [
       "./src/modules/**/infra/typeorm/schemas/*.ts"
