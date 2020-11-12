@@ -1,6 +1,13 @@
 # dependencies
 node_modules
 
+# env
+.env
+ormconfig.json
+
+# build
+dist
+
 # misc
 .vscode
 coverage
@@ -9,7 +16,3 @@ temp/*
 
 yarn.lock
 yarn-error.log
-
-#env
-.env
-ormconfig.json
