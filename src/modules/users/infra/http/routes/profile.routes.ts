@@ -8,10 +8,6 @@ import ensureAuthenticated from '../middlewares/ensureAuthenticated';
 const profileRouter = Router();
 const profileController = new ProfileController();
 
-profileRouter.get('/test', (request, response) => {
-  return response.json({ message: 'Page, commit test' });
-});
-
 profileRouter.use(ensureAuthenticated);
 
 profileRouter.get('/', profileController.show);
