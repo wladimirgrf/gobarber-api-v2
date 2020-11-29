@@ -119,9 +119,9 @@ $ gh repo fork wladimirgrf/gobarber-api
 
 ```bash
 # Clone your fork
-$ git clone your-fork-url && cd gobarber-api
+$ git clone fork-url && cd gobarber-api
 
-# Create a branch with your feature
+# Create a branch for your edits
 $ git checkout -b new-feature
 
 # Make the commit with your changes
