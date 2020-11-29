@@ -22,6 +22,10 @@
   <img alt="GitHub" src="https://img.shields.io/github/license/wladimirgrf/gobarber-api?color=%23FF9000">
 </p>
 
+<p id="insomniaButton" align="center">
+  <a href="https://insomnia.rest/run/?label=GoBarber&uri=https://raw.githubusercontent.com/wladimirgrf/gobarber-api/master/.github/insomnia/insomnia.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
+</p>
+
 ## 👨🏻‍💻  About
 
 This API provides everything needed to organize appointments for a Barber Shop.
