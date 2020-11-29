@@ -23,7 +23,7 @@
 </p>
 
 <p id="insomniaButton" align="center">
-  <a href="https://insomnia.rest/run/?label=GoBarber&uri=https://raw.githubusercontent.com/wladimirgrf/gobarber-api/master/.github/insomnia/insomnia.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
+  <a href="https://insomnia.rest/run/?label=GoBarber&uri=https://raw.githubusercontent.com/wladimirgrf/gobarber-api/master/.github/insomnia/insomnia.json"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"/></a>
 </p>
 
 ## 👨🏻‍💻  About
@@ -34,14 +34,14 @@ Customers can choose the best time available to them.
 
 Providers can manage your appointments, organize your agenda and receive notifications about schedule changes.
 
-To see the **web system**, click here: [GoBarber Web](https://github.com/wladimirgrf/gobarber-web)<br />
+To see the **web system**, click here: [GoBarber Web](https://github.com/wladimirgrf/gobarber-web)
 To see the **mobile app**, click here: [GoBarber Mobile](https://github.com/wladimirgrf/gobarber-mobile)
 
 ## 🌍 Ecosystem
 
 Below the technologies, used to build this API:
 
-|                      Name                            |                         Status                     |
+|                      Name                                   |                         Status                          |
 |:-----------------------------------------------------------:|:-------------------------------------------------------:|
 |<img height="44" src=".github/assets/nodejs.svg"> | <img alt="node version" src="https://img.shields.io/badge/nodejs-v12.18-blue?color=%23FF9000"> |
 |<img height="41" src=".github/assets/express.svg"> | <img alt="express version" src="https://img.shields.io/badge/express-v4.17.1-blue?color=%23FF9000"> |
@@ -56,7 +56,7 @@ Below the technologies, used to build this API:
 
 ## 💻 Getting started
 
-
+Start with [Run in Insomnia](#insomniaButton) or import the [`insomnia.json`](.github/insomnia/insomnia.json) on Insomnia App.
 
 ### Requirements
 
