@@ -24,7 +24,7 @@
 
 ## 👨🏻‍💻  About
 
-This api provides everything needed to organize appointments for a Barber Shop.
+This API provides everything needed to organize appointments for a Barber Shop.
 
 Customers can choose the best time available to them.
 
@@ -33,27 +33,22 @@ Providers can manage your appointments, organize your agenda and receive notific
 To see the **web system**, click here: [GoBarber Web](https://github.com/wladimirgrf/gobarber-web)<br />
 To see the **mobile app**, click here: [GoBarber Mobile](https://github.com/wladimirgrf/gobarber-mobile)
 
-## 🚀 Technologies
+## 🌍 Ecosystem
 
-Technologies that I used to develop this api
+Below the technologies, used to build this API:
 
-- [Node.js](https://nodejs.org/en/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Express](https://expressjs.com/pt-br/)
-- [Multer](https://github.com/expressjs/multer)
-- [TypeORM](https://typeorm.io/#/)
-- [JWT-token](https://jwt.io/)
-- [uuid v4](https://github.com/thenativeweb/uuidv4/)
-- [PostgreSQL](https://www.postgresql.org/)
-- [Date-fns](https://date-fns.org/)
-- [Jest](https://jestjs.io/)
-- [SuperTest](https://github.com/visionmedia/supertest)
-- [Husky](https://github.com/typicode/husky)
-- [Commitlint](https://github.com/conventional-changelog/commitlint)
-- [Commitizen](https://github.com/commitizen/cz-cli)
-- [Eslint](https://eslint.org/)
-- [Prettier](https://prettier.io/)
-- [EditorConfig](https://editorconfig.org/)
+|                      Name                            |                         Status                     |
+|:-----------------------------------------------------------:|:-------------------------------------------------------:|
+|<img width="48" height="48" src=".github/nodejs.svg"> | <img alt="node version" src="https://img.shields.io/badge/nodejs-v12.18-blue?color=%23FF9000"> |
+|<img width="48" height="48" src=".github/express.svg"> | <img alt="express version" src="https://img.shields.io/badge/express-v4.17.1-blue?color=%23FF9000"> |
+|<img width="48" height="48" src=".github/jwt.svg"> | <img alt="jwt version" src="https://img.shields.io/badge/jwt-v8.5.1-blue?color=%23FF9000"> |
+|<img width="48" height="48" src=".github/typeorm.svg"> | <img alt="typeorm version" src="https://img.shields.io/badge/typeorm-v0.2.25-blue?color=%23FF9000"> |
+|<img width="48" height="48" src=".github/mongodb.svg"> | <img alt="mongodb version" src="https://img.shields.io/badge/mongodb-v3.6.0-blue?color=%23FF9000"> |
+|<img width="48" height="48" src=".github/redis.svg"> | <img alt="redis version" src="https://img.shields.io/badge/redis-v3.0.2-blue?color=%23FF9000"> |
+|<img width="48" height="48" src=".github/typescript.svg"> | <img alt="typescript version" src="https://img.shields.io/badge/typescript-v3.9.3-blue?color=%23FF9000"> |
+|<img width="48" height="48" src=".github/eslint.svg"> | <img alt="eslint version" src="https://img.shields.io/badge/eslint-v6.0.8-blue?color=%23FF9000"> |
+|<img width="48" height="48" src=".github/prettier.svg"> | <img alt="prettier version" src="https://img.shields.io/badge/prettier-v2.0.5-blue?color=%23FF9000"> |
+
 
 ## 💻 Getting started
 
