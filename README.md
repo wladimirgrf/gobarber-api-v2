@@ -39,15 +39,15 @@ Below the technologies, used to build this API:
 
 |                      Name                            |                         Status                     |
 |:-----------------------------------------------------------:|:-------------------------------------------------------:|
-|<img width="48" height="48" src=".github/assets/nodejs.svg"> | <img alt="node version" src="https://img.shields.io/badge/nodejs-v12.18-blue?color=%23FF9000"> |
-|<img width="48" height="48" src=".github/assets/expressjs.svg"> | <img alt="expressjs version" src="https://img.shields.io/badge/expressjs-v4.17.1-blue?color=%23FF9000"> |
-|<img width="48" height="48" src=".github/assets/jwt.svg"> | <img alt="jwt version" src="https://img.shields.io/badge/jwt-v8.5.1-blue?color=%23FF9000"> |
-|<img width="48" height="48" src=".github/assets/typeorm.svg"> | <img alt="typeorm version" src="https://img.shields.io/badge/typeorm-v0.2.25-blue?color=%23FF9000"> |
-|<img width="48" height="48" src=".github/assets/mongodb.svg"> | <img alt="mongodb version" src="https://img.shields.io/badge/mongodb-v3.6.0-blue?color=%23FF9000"> |
-|<img width="48" height="48" src=".github/assets/redis.svg"> | <img alt="redis version" src="https://img.shields.io/badge/redis-v3.0.2-blue?color=%23FF9000"> |
-|<img width="48" height="48" src=".github/assets/typescript.svg"> | <img alt="typescript version" src="https://img.shields.io/badge/typescript-v3.9.3-blue?color=%23FF9000"> |
-|<img width="48" height="48" src=".github/assets/eslint.svg"> | <img alt="eslint version" src="https://img.shields.io/badge/eslint-v6.0.8-blue?color=%23FF9000"> |
-|<img width="48" height="48" src=".github/assets/prettier.svg"> | <img alt="prettier version" src="https://img.shields.io/badge/prettier-v2.0.5-blue?color=%23FF9000"> |
+|<img height="48" src=".github/assets/nodejs.svg"> | <img alt="node version" src="https://img.shields.io/badge/nodejs-v12.18-blue?color=%23FF9000"> |
+|<img height="48" src=".github/assets/expressjs.svg"> | <img alt="expressjs version" src="https://img.shields.io/badge/expressjs-v4.17.1-blue?color=%23FF9000"> |
+|<img height="48" src=".github/assets/jwt.svg"> | <img alt="jwt version" src="https://img.shields.io/badge/jwt-v8.5.1-blue?color=%23FF9000"> |
+|<img height="48" src=".github/assets/typeorm.svg"> | <img alt="typeorm version" src="https://img.shields.io/badge/typeorm-v0.2.25-blue?color=%23FF9000"> |
+|<img height="48" src=".github/assets/mongodb.svg"> | <img alt="mongodb version" src="https://img.shields.io/badge/mongodb-v3.6.0-blue?color=%23FF9000"> |
+|<img height="48" src=".github/assets/redis.svg"> | <img alt="redis version" src="https://img.shields.io/badge/redis-v3.0.2-blue?color=%23FF9000"> |
+|<img height="48" src=".github/assets/typescript.svg"> | <img alt="typescript version" src="https://img.shields.io/badge/typescript-v3.9.3-blue?color=%23FF9000"> |
+|<img height="48" src=".github/assets/eslint.svg"> | <img alt="eslint version" src="https://img.shields.io/badge/eslint-v6.0.8-blue?color=%23FF9000"> |
+|<img height="48" src=".github/assets/prettier.svg"> | <img alt="prettier version" src="https://img.shields.io/badge/prettier-v2.0.5-blue?color=%23FF9000"> |
 
 
 ## 💻 Getting started
