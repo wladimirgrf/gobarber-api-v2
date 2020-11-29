@@ -40,7 +40,7 @@ Below the technologies, used to build this API:
 |                      Name                            |                         Status                     |
 |:-----------------------------------------------------------:|:-------------------------------------------------------:|
 |<img width="48" height="48" src=".github/assets/nodejs.svg"> | <img alt="node version" src="https://img.shields.io/badge/nodejs-v12.18-blue?color=%23FF9000"> |
-|<img width="48" height="48" src=".github/assets/express.svg"> | <img alt="express version" src="https://img.shields.io/badge/express-v4.17.1-blue?color=%23FF9000"> |
+|<img width="48" height="48" src=".github/assets/expressjs.svg"> | <img alt="expressjs version" src="https://img.shields.io/badge/expressjs-v4.17.1-blue?color=%23FF9000"> |
 |<img width="48" height="48" src=".github/assets/jwt.svg"> | <img alt="jwt version" src="https://img.shields.io/badge/jwt-v8.5.1-blue?color=%23FF9000"> |
 |<img width="48" height="48" src=".github/assets/typeorm.svg"> | <img alt="typeorm version" src="https://img.shields.io/badge/typeorm-v0.2.25-blue?color=%23FF9000"> |
 |<img width="48" height="48" src=".github/assets/mongodb.svg"> | <img alt="mongodb version" src="https://img.shields.io/badge/mongodb-v3.6.0-blue?color=%23FF9000"> |
