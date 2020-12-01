@@ -6,8 +6,6 @@
   Express Application for GoBarber project
 </h3>
 
-<p align="center">The best way to schedule your service!</p>
-
 <p align="center">
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/wladimirgrf/gobarber-api?color=%23FF9000">
 
@@ -25,15 +23,6 @@
 <p id="insomniaButton" align="center">
   <a href="https://insomnia.rest/run/?label=GoBarber&uri=https://raw.githubusercontent.com/wladimirgrf/gobarber-api/master/.github/insomnia/insomnia.json"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"/></a>
 </p>
-
-## 👨🏻‍💻  About
-
-This API provides everything needed to organize appointments for a Barber Shop. </br>
-Customers can choose the best time available to them. </br>
-Providers can manage your appointments, organize your agenda and receive notifications about schedule changes.
-
-To see the **web system**, click here: [GoBarber Web](https://github.com/wladimirgrf/gobarber-web) </br>
-To see the **mobile app**, click here: [GoBarber Mobile](https://github.com/wladimirgrf/gobarber-mobile)
 
 ## 🌍 Ecosystem
 
@@ -95,10 +84,8 @@ $ docker run --name redis -p 6379:6379 -d -t redis:alpine
 # Once the services are running, run the migrations
 $ yarn typeorm migration:run
 
-# To finish, run the api service
+# Start the api service
 $ yarn dev:server
-
-# Project is started!
 ```
 
 ## 🤝 Contributing
