@@ -30,8 +30,8 @@ Below the technologies, used to build this API:
 
 |                      Name                                   |                         Status                          |
 |:-----------------------------------------------------------:|:-------------------------------------------------------:|
-|<img height="44" src=".github/assets/nodejs.svg"> | <img alt="node version" src="https://img.shields.io/badge/nodejs-v12.18-blue?color=%23FF9000"> |
-|<img height="41" src=".github/assets/express.svg"> | <img alt="express version" src="https://img.shields.io/badge/express-v4.17.1-blue?color=%23FF9000"> |
+|<img height="40" src=".github/assets/nodejs.svg"> | <img alt="node version" src="https://img.shields.io/badge/nodejs-v12.18-blue?color=%23FF9000"> |
+|<img height="40" src=".github/assets/express.svg"> | <img alt="express version" src="https://img.shields.io/badge/express-v4.17.1-blue?color=%23FF9000"> |
 |<img height="50" src=".github/assets/jwt.svg"> | <img alt="jwt version" src="https://img.shields.io/badge/jwt-v8.5.1-blue?color=%23FF9000"> |
 |<img height="55" src=".github/assets/typeorm.png"> | <img alt="typeorm version" src="https://img.shields.io/badge/typeorm-v0.2.25-blue?color=%23FF9000"> |
 |<img height="50" src=".github/assets/redis.svg"> | <img alt="redis version" src="https://img.shields.io/badge/redis-v3.0.2-blue?color=%23FF9000"> |
