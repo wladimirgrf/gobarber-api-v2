@@ -65,7 +65,7 @@ $ git clone https://github.com/wladimirgrf/gobarber-api.git && cd gobarber-api
 **Follow the steps below**
 
 ```bash
-# Install the dependencies
+# Project dependencies
 $ yarn
 
 # Make a copy of '.env.example' to '.env'
