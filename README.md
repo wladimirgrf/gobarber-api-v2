@@ -74,7 +74,7 @@ $ yarn
 $ cp .env.example .env
 
 # Create the instance of postgreSQL using docker
-$ docker run --name postgres -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres
+$ docker run --name postgres -e POSTGRES_PASSWORD={password} -p 5432:5432 -d postgres
 
 # Create the instance of mongoDB using docker
 $ docker run --name mongodb -p 27017:27017 -d -t mongo
